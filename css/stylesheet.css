@@ -1,0 +1,156 @@
+
+
+
+.font2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    margin: 0 2%;
+    /*0 represents top and bottom and 2% is for left and right for the For Sale section*/
+}
+
+.font2-reverse {
+    text-align: right;
+}
+    
+h1 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+footer{
+           text-align: center
+}
+
+header img {
+          text-align: center;
+          width: 100%;
+          }
+/*100% width allows the image (logo) to fill the browser at every dimension*/
+
+nav ul {
+        display:flex;
+        justify-content: space-around;
+        background-color: #74695E;
+         /*styling the nav ul vs nav li allows you to style the whole navigation container vs just what is in the unordered list*/
+      }
+
+nav li {
+           list-style-type: none;
+           /*removes bullet points before each item*/
+           padding: 10px;  
+           margin: 5px;
+           font-size: 25px;
+           }
+           
+nav li a:link { 
+    text-decoration: none;
+     /*this removes the underline on a hyperlink*/
+    color: #B5C2B7;
+    }
+
+nav li a:hover {
+    color: #ffffff;
+}   
+ 
+nav li a:visited {
+    color: #B5C2B7;
+}   
+
+#section_1 {
+           margin-bottom: 70px;
+           padding: 10px;
+           border-bottom: 1px solid #D7DBDD;
+          }
+          
+#section_2 {
+           margin-bottom: 70px; 
+           padding: 10px;
+           border-bottom: 1px solid #D7DBDD;
+            /*this adds a border at the bottom of the section, solid line, 1px wide and color D7DBDD*/
+}
+
+#section_3 {
+           margin-bottom: 70px; 
+            /*this adds space after the section*/
+}
+
+.featureListItem {
+           display: flex;
+           align-items: center;
+           justify-content: space-around;
+            }
+            
+.featureListItem--reverse {
+  flex-direction: row-reverse;
+   /*We can specify the flex-direction so that the children elements are displayed in the reverse order of how they appear in the markup.*/
+  }
+
+.featureListItem + .featureListItem {
+  border-top: 1px solid #D7DBDD;
+  /*this class styles the second and third sections only by placing a solid line at the top of each container*/
+}
+
+div ul a:link { 
+    color: #74695E;
+      /*This adds color to the 'TOP' link at the bottom of the webpage*/
+    }
+
+div ul a:hover {
+    color: #B5C2B7;;
+}   
+  
+.button {
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+
+#neighborhoods {
+    display: flex;
+    justify-content: space-around;
+    
+    /*This id uses flexbox for the neighborhood div within the section 2 container*/
+}
+  
+.neigh-ff {
+    display: flex;
+   }
+
+.neigh-ff .box {
+    height: 100px;
+    width: 165px;
+    flex: 1;
+    } 
+  /*these classes style the neighborhood container by giving 100px height to each neighborhood div*/
+
+.contact_info {
+    margin-top: 50px;
+}
+  
+footer {  
+ background-color: #74695E;
+ color: #B5C2B7;
+}
+
+footer div li {
+    list-style-type: none; 
+    /*This removes the bullet point from the TOP link*/
+}
+
+.third_section {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    /*This class is very similar to the font2 class except the margin property: value; is not used here as there is no need to indent this section*/
+}
+
+
+
+.google-maps {
+    position: relative;
+    padding-bottom: 25%;
+    height: 0;
+    overflow: hidden;
+}
+
+
